@@ -18,5 +18,10 @@ namespace e_commmerce.Controllers
         {
             return View("Contact");
         }
+
+        public ActionResult About()
+        {
+            return View("About");
+        }
     }
 }
