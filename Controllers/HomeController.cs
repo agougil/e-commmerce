@@ -23,5 +23,10 @@ namespace e_commmerce.Controllers
         {
             return View("About");
         }
+
+        public ActionResult Mens()
+        {
+            return View("Mens");
+        }
     }
 }

@@ -24,6 +24,12 @@ namespace e_commmerce
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Contact", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "Mens",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Contact", id = UrlParameter.Optional }
+            );
         }
     }
 }
