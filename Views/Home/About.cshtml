@@ -1,4 +1,4 @@
-﻿
+﻿@Url.Action("Womens", "Home")
 @{
     ViewBag.Title = "About";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -152,7 +152,7 @@
                 <div class="agile_inner_breadcrumb">
 
                     <ul class="w3_short">
-                        <li><a href="index.html">Home</a><i>|</i></li>
+                        <li><a href="@Url.Action("Index", "Home")">Home</a><i>|</i></li>
                         <li>About</li>
                     </ul>
                 </div>
@@ -394,7 +394,7 @@
             <h3 class="wthree_text_info">What's <span>Trending</span></h3>
 
             <div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
-                <a href="women.html">
+                <a href="@Url.Action("Womens", "Home")">
                     <div class="bb-left-agileits-w3layouts-inner grid">
                         <figure class="effect-roxy">
                             <img src=@Url.Content("/Content/images/bb1.jpg") alt=" " class="img-responsive" />
@@ -434,11 +434,11 @@
     <!--/grids-->
     <div class="agile_last_double_sectionw3ls">
         <div class="col-md-6 multi-gd-img multi-gd-text ">
-            <a href="womens.html"><img src=@Url.Content("/Content/images/bot_1.jpg") alt=" "><h4>Flat <span>50%</span> offer</h4></a>
+            <a href="@Url.Action("Womens", "Home")"><img src=@Url.Content("/Content/images/bot_1.jpg") alt=" "><h4>Flat <span>50%</span> offer</h4></a>
 
         </div>
         <div class="col-md-6 multi-gd-img multi-gd-text ">
-            <a href="womens.html"><img src=@Url.Content("/Content/images/bot_2.jpg") alt=" "><h4>Flat <span>50%</span> offer</h4></a>
+            <a href="@Url.Action("Womens", "Home")"><img src=@Url.Content("/Content/images/bot_2.jpg") alt=" "><h4>Flat <span>50%</span> offer</h4></a>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -448,7 +448,7 @@
         <div class="container">
             <h6>We Offer Flat <span>40%</span> Discount</h6>
 
-            <a class="hvr-outline-out button2" href="single.html">Shop Now </a>
+            <a class="hvr-outline-out button2" href="@Url.Action("Single", "Home")">Shop Now </a>
         </div>
     </div>
     <!-- //we-offer -->
@@ -506,14 +506,14 @@
     <!-- cart-js -->
     <script src="js/minicart.min.js"></script>
     <script>
-	// Mini Cart
-	paypal.minicart.render({
-		action: '#'
-	});
+        // Mini Cart
+        paypal.minicart.render({
+            action: '#'
+        });
 
-	if (~window.location.search.indexOf('reset=true')) {
-		paypal.minicart.reset();
-	}
+        if (~window.location.search.indexOf('reset=true')) {
+            paypal.minicart.reset();
+        }
     </script>
 
     <!-- //cart-js -->
@@ -521,35 +521,35 @@
     <script src=@Url.Content("/Content/js/jquery.waypoints.min.js")></script>
     <script src=@Url.Content("/Content/js/jquery.countup.js")></script>
     <script>
-		$('.counter').countUp();
+        $('.counter').countUp();
     </script>
     <!-- //stats -->
     <!-- start-smoth-scrolling -->
     <script type="text/javascript" src=@Url.Content("/Content/js/move-top.js")></script>
     <script type="text/javascript" src=@Url.Content("/Content/js/jquery.easing.min.js")></script>
     <script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
     </script>
     <!-- here stars scrolling icon -->
     <script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
+        $(document).ready(function () {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+                };
+            */
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
+            $().UItoTop({ easingType: 'easeOutQuart' });
 
-			});
+        });
     </script>
     <!-- //here ends scrolling icon -->
     <!-- for bootstrap working -->
