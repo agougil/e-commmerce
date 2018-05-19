@@ -28,5 +28,15 @@ namespace e_commmerce.Controllers
         {
             return View("Mens");
         }
+
+        public ActionResult Womens()
+        {
+            return View("Womens");
+        }
+
+        public ActionResult Single()
+        {
+            return View("Single");
+        }
     }
 }
