@@ -64,8 +64,8 @@ C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\bin\System.Web.Webpages.Dep
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\bin\System.Web.Webpages.Razor.xml
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\bin\System.Web.Helpers.xml
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\bin\System.Web.Mvc.xml
+C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\obj\Debug\e-commmerce.csprojResolveAssemblyReference.cache
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\obj\Debug\e-commmerce.csproj.CoreCompileInputs.cache
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\obj\Debug\e-commmerce.csproj.CopyComplete
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\obj\Debug\e-commmerce.dll
 C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\obj\Debug\e-commmerce.pdb
-C:\Users\agoug\source\repos\ProjetASPMVC\e-commmerce\obj\Debug\e-commmerce.csprojResolveAssemblyReference.cache
